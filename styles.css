@@ -1,0 +1,368 @@
+
+ 
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
+
+body{background: url(https://image.freepik.com/free-vector/memphis-pattern_1045-810.jpg);
+    position: relative;}
+
+
+/* title and nav-bar styling */
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #477;
+    border-radius: 10px; }
+
+#header-img{ 
+    height: 250px;
+    width: 250px;
+}
+
+
+h1{
+    height: 45px;
+    margin: auto;
+    text-align: left;
+    font-size: 85px;
+    font-family: 'Bebas Neue', cursive;
+    color: salmon;
+    opacity: 75%;
+}
+
+
+
+
+
+#nav-bar {
+    position: fixed;
+    text-align: center;
+    font-size: 22px; 
+    padding: 20px; 
+    background-color: white; 
+    opacity: .6;
+    z-index: 9;}
+
+
+div{ 
+    border-radius: 10px;
+}
+
+.nav-link{
+    margin: 60px; 
+    color: #477;}
+
+
+a:hover{
+    color: #978;}
+
+
+.info{
+    font-size: 17px;
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 35px;
+    margin-right: 35px;
+    align-content: center; 
+    color: black;  }
+
+.about-us{
+    padding-bottom: 35px;
+}
+
+/* home-page styling  */
+    .home-wrapper {
+    background-color: #477;
+    border-radius: 10px;
+    }
+
+.titles{
+    text-align: center;  
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 45px;
+    color: salmon;
+    opacity: 75%;
+}
+
+/* threads-page styling  */
+#form{
+    position: relative;
+}
+
+
+ #threads{
+    text-align: center;  
+    border-radius: 10px;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+    margin-bottom: 60px;
+    background-color: #477;
+     }
+
+.threads-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; 
+    gap: 200px;
+}
+
+
+.logo-wrapper img{
+    height: 350px;
+    width: 350px;
+    border-radius: 50px 150px 50px;
+
+}
+
+.img-text-wrapper .subtitle{
+    transition: 1s;
+    font-weight: 600;
+    color: transparent;
+}
+
+
+.img-text-wrapper:hover .subtitle{
+    font-weight: 600;
+    color: black;
+}
+
+.img-text-wrapper :hover{
+    opacity: 50%;
+}
+
+.upper-body-wrapper {
+    margin-top: 40px;
+    
+}
+
+.lower-body-wrapper {
+    margin-bottom: 40px;
+    
+}
+
+.select-size  input{
+    display: none;
+  }
+  
+  label {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid #ddd;
+    line-height: 50px;
+    cursor: pointer
+  }
+  
+  #small:checked ~ label[for="small"],
+  #medium:checked ~ label[for="medium"],
+  #large:checked ~ label[for="large"],
+  #x-large:checked ~ label[for="x-large"],
+  #xx-large:checked ~ label[for="xx-large"] {
+    background: #999;
+    color: #ffffff;
+  }
+
+  .addToCart{
+      display: inline;
+      height: 40px;
+      width: 150px;
+      text-align: center;
+      margin-top: 20px;
+      background-color: salmon;
+      font-size: 18px;
+      font-family: 'Bebas Neue', cursive;
+      opacity: 55%;
+  }
+
+/* contact-page styling  */
+.contacts-wrapper{
+    background-color:#477;
+}
+
+#contact{
+    text-align: center; 
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 60px;
+}
+
+
+#inputs{
+    display: relative;}
+    
+#email{
+    align-self: center;
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    }
+
+#submit{
+    border-radius: 10px;
+    height: 30px;
+    color: #eee;
+    background-color: salmon;
+    opacity: 55%;
+    margin-bottom: 45px;
+}
+/* check-out button */
+
+.cart-link{
+    text-align: center;
+    margin-top: 150px;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-bottom: 100px;
+}
+
+.checkout{
+    color: salmon;
+}
+/* shopping cart styling */
+
+.cart-body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   }
+.cart-container{
+    background-color: #477;
+    width: 70%;
+    height:85%;
+    border-radius: 20px;
+    box-shadow: 0px 25px 40px #1687d933;
+}
+
+.cart-header{
+    display: flex;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: salmon;     
+}
+
+
+.cart-column{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px; 
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    
+}
+
+.cart-row {
+    display: flex;
+    border-bottom: 1px solid black;
+    
+}
+
+.cart-item{
+    width: 45%;
+
+}
+.cart-price{
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity{
+    width: 35%;
+}
+
+.cart-item-title{
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+.cart-item-img{
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-danger{
+    color: white;
+    background-color: #eb5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+    height: 34px;
+}
+
+.btn-danger:hover{
+    background-color: #cc4c4c;
+}
+
+.cart-quantity-input{
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56ccf2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.cart-row:last-child{
+    border-bottom: 1px solid black;
+}
+.cart-row:last-child .cart-column{
+    border: none;
+}
+
+.cart-total{
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title{
+    font-weight: bold;
+    font-size: 1.5em;
+    color: salmon;
+    margin-right: 20px;
+}
+.cart-total-price{
+    color: darksalmon;
+    font-size: 1.1em;
+}
+
+.btn-purchase{
+    display: block;
+    margin: 40px auto 20px auto;
+    padding: 15px;
+    font-size: 1.2em;
+    color: linen;
+    background-color: lightsteelblue;
+    border: none;
+    border-radius: 10px;
+}
+
+.home-link{
+    text-align: center;
+    margin-top: 150px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.keep-shopping{
+    color: salmon;
+}
