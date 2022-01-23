@@ -35,10 +35,6 @@ h1{
     opacity: 75%;
 }
 
-
-
-
-
 #nav-bar {
     position: fixed;
     text-align: center;
@@ -230,15 +226,16 @@ a:hover{
 /* shopping cart styling */
 
 .cart-body{
+    
     margin: 0;
     padding: 0;
     height: 100vh;
-    display: flex;
     justify-content: center;
     align-items: center;
     
    }
 .cart-container{
+    margin: auto;
     background-color: #477;
     width: 70%;
     height:85%;
@@ -247,7 +244,7 @@ a:hover{
 }
 
 .cart-header{
-    display: flex;
+   
     font-weight: bold;
     font-size: 1.2em;
     color: salmon;     
