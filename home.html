@@ -12,7 +12,7 @@
 <body>
   <!--Header with image and the floating nav-bar-->
   <header id="header" class="background-wrapper"><img src="https://i.ibb.co/QnGxzwm/D187-E2-F5-46-BE-4-F00-930-F-54-E7-BD672739-2.png" alt="D187-E2-F5-46-BE-4-F00-930-F-54-E7-BD672739-2" border="0" id="header-img" type="file"> </a>  
-    <h1> Mischavuhs Clothiers </h1> 
+    <h1 id="home"> Mischavuhs Clothiers </h1> 
     <nav id="nav-bar"> 
       <a class="nav-link" href="#home"> Home</a>  
     <a class="nav-link" href="#threads"> Threads</a>
@@ -33,11 +33,11 @@
 
   <h2 id="threads" class="background-wrapper"> 
     <p class="titles"> <u>Threads</u> </p> 
-  <div class="threads-wrapper">  
+<div class="threads-wrapper">  
     <!-- need to get pictures of actual product for this section-->
   <div class="upper-body-wrapper">
       
-    <div class="img-text-wrapper">
+    <div class="shop-item sweatshirts">
       <div class="logo-wrapper">
           <img class="threads-image"  src="imgs/sweatshirts.jpg">
       </div>
@@ -63,11 +63,8 @@
         <strong class="item-price"> $39.99</strong>
       </div>
     </div>    
-    
-  </div>
-    <div class="upper-body-wrapper">
         
-    <div class="img-text-wrapper">
+    <div class="shop-item tshirts">
       <div class="logo-wrapper">
           <img class="threads-image"  src="imgs/shirts.jpg">
       </div>
@@ -98,7 +95,7 @@
   </div>
     <div class="lower-body-wrapper">
       
-    <div class="img-text-wrapper">
+    <div class="shop-item pants">
       <div class="logo-wrapper">
           <img class="threads-image" src="imgs/pants.jpg">
       </div>
@@ -126,10 +123,8 @@
       </div>
     </div>    
         
-   </div>
-  <div class="lower-body-wrapper">
-      
-    <div class="img-text-wrapper">
+   
+    <div class="shop-item socks">
       <div class="logo-wrapper">
           <img class="threads-image"  src="imgs/socks.jpg">  
       </div>
@@ -144,27 +139,20 @@
         <input type="radio" name="s-size" id="large" />
         <input type="radio" name="s-size" id="x-large" />
         <input type="radio" name="s-size" id="xx-large" />
-        
       
         <label for="small">S</label>
         <label for="medium">M</label>
         <label for="large">L</label>  
-        </div>
-        <div class="addToCart-wrapper">
+      </div>
+      <div class="addToCart-wrapper">
         <button class="addToCart" type="button" > Add to Cart</button>
         <strong class="item-price"> $11.99</strong>
-        </div>
-    </div>          
+      </div>
     </div>   
   </div>
-  <div class="cart-link">
-    <a class="checkout" href="cart.html"> Check Out</a>
-  </div>
-
+</div> 
   <!-- Shopping Cart page-->
-  
-  <body class="cart-body">
-   
+ 
     <section class="cart-container">
         <div class="cart-header"> 
             <h2 class="header-title">Your Cart                   
@@ -177,21 +165,20 @@
           </div>
 
         <div class="cart-items">
-          <p>Hello Check out </p>  
+          
         </div>
 
-        </div>
+       
           <div class="cart-total">
             <strong class="cart-total-title">Total</strong>
             <span class="cart-total-price"></span>
         </div>
         <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
-        <div class="home-link">
-            <a class="keep-shopping" href="home.html"> Keep Shopping</a>
-        </div>
     </section>
-</body>
+  </form>
 
+  <!--Contact-->
+<footer>
   <div class="background-wrapper">
   <h2 id="contact"> <p class="titles"> <u>Contact</u> </p>
     <p class="info">We would love to hear from you!</p>
@@ -207,7 +194,6 @@
   </div>
   </h2>
   </div>
+</footer>
 
-</form> 
-</body>
 </html>
